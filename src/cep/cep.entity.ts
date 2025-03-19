@@ -19,7 +19,7 @@ export class Cep {
     @Column()
     id_municipio: number;
 
-    @Column()
+    @Column({ nullable: true })
     nome_municipio: string;
 
     @Column()
